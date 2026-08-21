@@ -9,7 +9,7 @@ An end-to-end Python Data Science and Machine Learning repository analyzing $121
 
 ---
 
-## 📌 Key Data Science Deliverables
+##  Key Data Science Deliverables
 
 ```
 ├── data/                    # 6 Raw Relational Tables + Master Customer 360 Feature Matrix
@@ -22,7 +22,7 @@ An end-to-end Python Data Science and Machine Learning repository analyzing $121
 
 ---
 
-## 🔬 Empirical Machine Learning & Statistical Findings
+##  Empirical Machine Learning & Statistical Findings
 
 ### 1. Multi-Model Churn Classification (5-Fold Stratified CV)
 | Model Architecture | Test ROC-AUC | Test Accuracy | Brier Score | Hyperparameters |
@@ -40,7 +40,7 @@ An end-to-end Python Data Science and Machine Learning repository analyzing $121
 
 ---
 
-## 📈 Visualizations & Artifacts
+##  Visualizations & Artifacts
 
 ### Kaplan-Meier Customer Survival Curve & MoM Cohort Retention Heatmap
 - **Median Customer Tenure**: `5.4 months` (Mean: `7.3 months`).
@@ -49,7 +49,7 @@ An end-to-end Python Data Science and Machine Learning repository analyzing $121
 
 ---
 
-## 🚀 Quick Start & Reproduction
+##  Quick Start & Reproduction
 
 ```bash
 # 1. Clone this repository
