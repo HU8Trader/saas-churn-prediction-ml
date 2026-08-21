@@ -1,4 +1,7 @@
 """
+Author: Himansh Upadhyay
+GitHub: https://github.com/HU8Trader
+
 Customer Lifetime Value (LTV) & Time-Series Revenue Forecasting Pipeline
 Computes Realized & Predictive LTV per account, breaks down cohort LTV,
 and forecasts 12-month forward MRR and ARR growth trajectories.

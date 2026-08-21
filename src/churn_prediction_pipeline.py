@@ -1,4 +1,7 @@
 """
+Author: Himansh Upadhyay
+GitHub: https://github.com/HU8Trader
+
 Predictive Churn Modeling Pipeline
 Trains Logistic Regression, Random Forest, and XGBoost classifiers on Customer 360 features.
 Performs 5-Fold Stratified Cross-Validation, evaluates ROC-AUC / PR-AUC / F1, extracts Feature Importance,

@@ -1,4 +1,7 @@
 """
+Author: Himansh Upadhyay
+GitHub: https://github.com/HU8Trader
+
 Statistical Driver & Regression Analysis Pipeline
 Performs OLS Multiple Regression for CSAT drivers, ANOVA tests for Churn Refunds,
 Chi-Square tests for Plan Tier Churn, and correlation heatmaps.

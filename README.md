@@ -1,5 +1,8 @@
 # SaaS Customer Intelligence: Predictive Churn Modeling, Survival Analysis & LTV Forecasting
 
+> **Author**: **Himansh Upadhyay** | **GitHub**: [@HU8Trader](https://github.com/HU8Trader)
+
+
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn%20%26%20XGBoost-orange.svg)](https://scikit-learn.org/)
 [![Lifelines](https://img.shields.io/badge/Survival-Lifelines%20(Kaplan--Meier)-green.svg)](https://lifelines.readthedocs.io/)

@@ -1,4 +1,7 @@
 """
+Author: Himansh Upadhyay
+GitHub: https://github.com/HU8Trader
+
 Cohort & Survival Analysis Pipeline
 Fits Kaplan-Meier Survival Curves, Cox Proportional Hazards regression,
 and builds Month-over-Month Triangular Cohort Retention Matrix.

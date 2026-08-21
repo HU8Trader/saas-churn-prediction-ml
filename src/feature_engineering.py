@@ -1,4 +1,7 @@
 """
+Author: Himansh Upadhyay
+GitHub: https://github.com/HU8Trader
+
 Feature Engineering & Customer 360 Analytical Dataset Generator
 Consolidates dim_accounts, fact_subscriptions, fact_churn_events,
 fact_feature_usage, and fact_support_tickets into a rich analytical feature matrix.
