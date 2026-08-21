@@ -1,0 +1,42 @@
+{
+  "total_active_mrr": 11338747.0,
+  "total_active_arr": 136064964.0,
+  "avg_realized_ltv": 22677.49,
+  "avg_expected_ltv": 991365.86,
+  "projected_12m_exit_mrr": 27345104.54,
+  "projected_12m_exit_arr": 328141254.48,
+  "ltv_drivers": [
+    {
+      "feature": "seats",
+      "standardized_coefficient": 11560.973050504177
+    },
+    {
+      "feature": "total_feature_events",
+      "standardized_coefficient": 5280.031870173003
+    },
+    {
+      "feature": "total_errors",
+      "standardized_coefficient": 1074.5266012854297
+    },
+    {
+      "feature": "avg_csat",
+      "standardized_coefficient": 871.6378339243059
+    },
+    {
+      "feature": "distinct_features_used",
+      "standardized_coefficient": 794.3574784886484
+    },
+    {
+      "feature": "total_duration_hours",
+      "standardized_coefficient": 94.55249729386362
+    },
+    {
+      "feature": "is_trial",
+      "standardized_coefficient": -118.08213056514296
+    },
+    {
+      "feature": "total_tickets",
+      "standardized_coefficient": -454.4163793588922
+    }
+  ]
+}

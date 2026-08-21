@@ -1,0 +1,52 @@
+{
+  "total_accounts": 500,
+  "churned_accounts": 110,
+  "retention_rate_pct": 78.0,
+  "median_tenure_months": 5.4,
+  "mean_tenure_months": 7.28,
+  "logrank_enterprise_vs_basic_pvalue": 0.7826,
+  "top_hazard_factors": {
+    "avg_csat": {
+      "Coefficient": 0.24213152046010636,
+      "Hazard_Ratio (exp)": 1.273961733831809,
+      "Std_Error": 0.19327719497674958,
+      "p_value": 0.21029008375554664
+    },
+    "is_trial": {
+      "Coefficient": 0.0992585776957056,
+      "Hazard_Ratio (exp)": 1.1043518233919847,
+      "Std_Error": 0.23620661957868896,
+      "p_value": 0.6743252650282678
+    },
+    "annual_billing_ratio": {
+      "Coefficient": 0.052721763668194956,
+      "Hazard_Ratio (exp)": 1.0541363052935424,
+      "Std_Error": 0.6249429271366967,
+      "p_value": 0.9327682013008556
+    },
+    "seats": {
+      "Coefficient": 0.0019324843656393672,
+      "Hazard_Ratio (exp)": 1.0019343528169415,
+      "Std_Error": 0.005444131996478205,
+      "p_value": 0.7226147039952373
+    },
+    "avg_first_response_min": {
+      "Coefficient": -0.011588153662873088,
+      "Hazard_Ratio (exp)": 0.9884787303862766,
+      "Std_Error": 0.003670966355063109,
+      "p_value": 0.0015956330710587576
+    },
+    "error_rate_per_100_events": {
+      "Coefficient": -0.012469547371741416,
+      "Hazard_Ratio (exp)": 0.9876078752914423,
+      "Std_Error": 0.006699424320292437,
+      "p_value": 0.06270374276353649
+    },
+    "net_expansion_score": {
+      "Coefficient": -0.07341466826468072,
+      "Hazard_Ratio (exp)": 0.9292154339740385,
+      "Std_Error": 0.08029964760443546,
+      "p_value": 0.36058081623727145
+    }
+  }
+}

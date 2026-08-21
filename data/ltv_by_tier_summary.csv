@@ -1,0 +1,4 @@
+plan_tier,account_count,avg_mrr,avg_realized_ltv,avg_expected_ltv,median_tenure_months
+Basic,168,24094.49,24094.49,1053310.95,4.6
+Enterprise,154,21572.44,21572.44,943057.55,5.75
+Pro,178,22296.16,22296.16,974695.65,5.7

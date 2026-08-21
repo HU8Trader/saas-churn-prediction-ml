@@ -1,0 +1,181 @@
+{
+  "best_model": "XGBoost Classifier",
+  "best_roc_auc": 0.6159673659673659,
+  "numeric_features": [
+    "seats",
+    "is_trial",
+    "total_mrr",
+    "mrr_per_seat",
+    "total_subscriptions_count",
+    "upgrade_count",
+    "downgrade_count",
+    "net_expansion_score",
+    "annual_billing_ratio",
+    "total_feature_events",
+    "total_duration_hours",
+    "avg_session_duration_mins",
+    "total_errors",
+    "error_rate_per_100_events",
+    "distinct_features_used",
+    "beta_feature_usage_ratio",
+    "total_tickets",
+    "avg_csat",
+    "avg_first_response_min",
+    "avg_resolution_hours",
+    "total_escalations",
+    "escalation_rate_pct",
+    "urgent_tickets",
+    "urgent_ticket_ratio",
+    "tenure_months"
+  ],
+  "categorical_features": [
+    "industry",
+    "country",
+    "plan_tier",
+    "referral_source"
+  ],
+  "all_feature_names": [
+    "seats",
+    "is_trial",
+    "total_mrr",
+    "mrr_per_seat",
+    "total_subscriptions_count",
+    "upgrade_count",
+    "downgrade_count",
+    "net_expansion_score",
+    "annual_billing_ratio",
+    "total_feature_events",
+    "total_duration_hours",
+    "avg_session_duration_mins",
+    "total_errors",
+    "error_rate_per_100_events",
+    "distinct_features_used",
+    "beta_feature_usage_ratio",
+    "total_tickets",
+    "avg_csat",
+    "avg_first_response_min",
+    "avg_resolution_hours",
+    "total_escalations",
+    "escalation_rate_pct",
+    "urgent_tickets",
+    "urgent_ticket_ratio",
+    "tenure_months",
+    "industry_DevTools",
+    "industry_EdTech",
+    "industry_FinTech",
+    "industry_HealthTech",
+    "country_CA",
+    "country_DE",
+    "country_FR",
+    "country_IN",
+    "country_UK",
+    "country_US",
+    "plan_tier_Enterprise",
+    "plan_tier_Pro",
+    "referral_source_event",
+    "referral_source_organic",
+    "referral_source_other",
+    "referral_source_partner"
+  ],
+  "test_metrics": {
+    "Logistic Regression (Baseline)": {
+      "roc_auc": 0.5868,
+      "pr_auc": 0.3556,
+      "accuracy": 0.55,
+      "precision": 0.2653,
+      "recall": 0.5909,
+      "f1_score": 0.3662,
+      "brier_score": 0.2609,
+      "confusion_matrix": [
+        [
+          42,
+          36
+        ],
+        [
+          9,
+          13
+        ]
+      ]
+    },
+    "Random Forest Classifier": {
+      "roc_auc": 0.6096,
+      "pr_auc": 0.3713,
+      "accuracy": 0.67,
+      "precision": 0.2609,
+      "recall": 0.2727,
+      "f1_score": 0.2667,
+      "brier_score": 0.2121,
+      "confusion_matrix": [
+        [
+          61,
+          17
+        ],
+        [
+          16,
+          6
+        ]
+      ]
+    },
+    "XGBoost Classifier": {
+      "roc_auc": 0.616,
+      "pr_auc": 0.3196,
+      "accuracy": 0.69,
+      "precision": 0.2353,
+      "recall": 0.1818,
+      "f1_score": 0.2051,
+      "brier_score": 0.1947,
+      "confusion_matrix": [
+        [
+          65,
+          13
+        ],
+        [
+          18,
+          4
+        ]
+      ]
+    }
+  },
+  "top_10_features": [
+    {
+      "feature": "error_rate_per_100_events",
+      "importance": 0.07392472023906543
+    },
+    {
+      "feature": "avg_first_response_min",
+      "importance": 0.06887180809416261
+    },
+    {
+      "feature": "tenure_months",
+      "importance": 0.0677031551056343
+    },
+    {
+      "feature": "avg_session_duration_mins",
+      "importance": 0.06485380515318453
+    },
+    {
+      "feature": "total_mrr",
+      "importance": 0.056303546465711986
+    },
+    {
+      "feature": "beta_feature_usage_ratio",
+      "importance": 0.05472927969301962
+    },
+    {
+      "feature": "mrr_per_seat",
+      "importance": 0.04909144660240229
+    },
+    {
+      "feature": "avg_resolution_hours",
+      "importance": 0.047582966791942065
+    },
+    {
+      "feature": "total_duration_hours",
+      "importance": 0.04614805659017507
+    },
+    {
+      "feature": "distinct_features_used",
+      "importance": 0.04271108775509294
+    }
+  ]
+}

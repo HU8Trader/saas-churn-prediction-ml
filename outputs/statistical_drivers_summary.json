@@ -1,0 +1,22 @@
+{
+  "ols_csat_model": {
+    "r_squared": 0.0019,
+    "r_squared_adj": -0.0024,
+    "f_statistic": 0.4449,
+    "f_pvalue": 0.8171946039646828,
+    "significant_features": [
+      "Intercept"
+    ]
+  },
+  "anova_churn_refunds": {
+    "f_statistic": 0.4656,
+    "p_value": 0.802,
+    "statistically_significant": false
+  },
+  "chisquare_tier_churn": {
+    "chi2_statistic": 0.0014,
+    "p_value": 0.9993,
+    "dof": 2,
+    "statistically_significant": false
+  }
+}
